@@ -10,7 +10,7 @@ class HtmlReport {
             <div>${report}</div>
         </div>
         `;
-        fs_1.readFileSync.writeFileSync('report.html', html);
+        (0, fs_1.writeFileSync)('report.html', html);
     }
 }
 exports.HtmlReport = HtmlReport;
